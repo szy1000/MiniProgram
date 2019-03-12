@@ -1,0 +1,6 @@
+<!-- 组件模板 -->
+<view class="header">
+  <view>这里是组件的内部节点</view>
+  <view>{{title}}</view>
+  <slot></slot>
+</view>
